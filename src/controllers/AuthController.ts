@@ -31,6 +31,8 @@ export class AuthController {
             { expiresIn: '1d' }
         );
 
+        // Sumit
+
         return sendSuccess(res, { token }, 'Login successful');
     };
 }
