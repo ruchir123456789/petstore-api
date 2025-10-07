@@ -32,6 +32,7 @@ export class AuthController {
         );
 
         // Sumit
+        // Ruchir
 
         return sendSuccess(res, { token }, 'Login successful');
     };
