@@ -31,6 +31,8 @@ export class AuthController {
             { expiresIn: '1d' }
         );
 
+        // Ruchir
+
         return sendSuccess(res, { token }, 'Login successful');
     };
 }
